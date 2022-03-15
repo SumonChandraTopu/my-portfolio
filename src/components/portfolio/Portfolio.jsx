@@ -3,9 +3,9 @@ import "./Portfolio.css"
 
 const Portfolio = () => {
     return (
-        <div>
+        <section id='portfolio'>
             <h3>This is portfolio</h3>
-        </div>
+        </section>
     );
 };
 

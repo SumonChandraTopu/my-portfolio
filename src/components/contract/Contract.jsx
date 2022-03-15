@@ -3,9 +3,9 @@ import "./Contract.css"
 
 const Contract = () => {
     return (
-        <div>
+        <section id='contact'>
             <h3>this is contract section</h3>
-        </div>
+        </section>
     );
 };
 

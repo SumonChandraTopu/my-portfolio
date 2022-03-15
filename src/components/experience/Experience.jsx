@@ -3,9 +3,9 @@ import "./Experience.css"
 
 const Experience = () => {
     return (
-        <div>
+        <section id='experience'>
             <h3>This is Experience section</h3>
-        </div>
+        </section>
     );
 };
 
