@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300, 500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300, 500&display=swap");
 body {
   background-image: url("./assets//bg.jpg");
   color: #eee8e8;
   font-weight: lighter;
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -17,7 +17,7 @@ body {
   text-decoration: none;
   line-height: 1.7;
 }
-:root{
+:root {
   --color-bg: #1f1f1f;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
@@ -30,109 +30,103 @@ body {
   --container-width-sm: 90%;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
 
-
 /* ======================= General Styles ==================== */
 
-
-.container{
+.container {
   width: var(--container-width-lg);
-  margin: 0 auto;;
+  margin: 0 auto;
 }
-
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   font-weight: 500;
 }
 
-
-h1{
+h1 {
   font-size: 2.5rem;
 }
 
-section{
+section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
-section > h2, section > h5{
+section > h2,
+section > h5 {
   text-align: center;
 }
-section > h2{
+section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
 }
 
-.text-light{
+.text-light {
   color: var(--color-light);
 }
 
-a{
+a {
   color: var(--color-primary);
   transition: var(--transition);
 }
 
-a:hover{
+a:hover {
   color: var(--color-white);
 }
-.btn{
+.btn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
   padding: 0.75rem 1.2rem;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
-.btn:hover{
+.btn:hover {
   background-color: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
 }
 
-.btn-primary{
+.btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
 }
 
-img{
+img {
   display: block;
   width: 100%;
   object-fit: cover;
 }
 
-
 /* ======================= Media Query ( Medium Devices) ============ */
 
 @media screen and(max-width: 1024px) {
-  .container{
+  .container {
     width: var(--container-width-md);
   }
-  section{
+  section {
     margin-top: 6rem;
   }
 }
 /* ======================= Media Query ( Mobie Devices) ============ */
 
 @media screen and(max-width: 600px) {
-  .container{
+  .container {
     width: var(--container-width-sm);
   }
-  section{
+  section {
     margin-bottom: 2rem;
   }
 }
-
