@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
-    
+    padding-bottom: 2rem;
 }
 .contact_potions{
     display: flex;
