@@ -9,7 +9,7 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience_container">
-        <div className="experience_frontend">
+        <div className="experience">
           <h3>Front-End Development</h3>
           <div className="experience_content">
             <article className="experience_details">
@@ -54,42 +54,36 @@ const Experience = () => {
                 <small className="text-light">Experience</small>
               </div>
             </article>
-          </div>
-        </div>
-        {/* End of front end */}
-        {/* <div className="experience_backend">
-          <h3>Back-End Development</h3>
-          <div className="experience_content">
+            <article className="experience_details">
+              <BsFillPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Redux</h4>
+                <small className="text-light">Experience</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsFillPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Material UI</h4>
+                <small className="text-light">Experience</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsFillPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>REST APIs</h4>
+                <small className="text-light">Experience</small>
+              </div>
+            </article>
             <article className="experience_details">
               <BsFillPatchCheckFill className="experience_details-icon" />
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">Experience</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>PHP</h4>
-                <small className="text-light">Experience</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsFillPatchCheckFill className="experience_details-icon" />
-              <div>
-                <h4>MySQL</h4>
                 <small className="text-light">Experience</small>
               </div>
             </article>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
