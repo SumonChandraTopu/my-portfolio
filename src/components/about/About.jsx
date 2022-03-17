@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutMe from "../../assets/sumon.jpg";
+import aboutMe from "../../assets/sumon.png";
 import { FaAward } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
