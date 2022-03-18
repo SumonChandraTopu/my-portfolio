@@ -36,7 +36,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            I am a Front-End developer. I spend my whole day with HTML, CSS,
+            My name is Sumon Chandra Shil. I am a Front-End developer. I spend my whole day with HTML, CSS,
             JavaScript etc technology. Creating gorgeous and awesome web pages
             is something I use in one of the most popular JavaScript library
             called React. The second tool I mention is Redux, which I use to

@@ -20,18 +20,19 @@ const Footer = () => {
             </ul>
 
             <div className="footer_socials">
-                <a href="https://facebook.com">
+                <a href=" https://www.facebook.com/SumonChandraForever/">
                     <BsFacebook />
                 </a>
-                <a href="https://github.com">
+                <a href="https://github.com/SumonChandraTopu">
                     <BsGithub />
                 </a>
-                <a href="https://twitter.com">
+                <a href="https://twitter.com/Sumon__Chandra">
                     <BsTwitter />
                 </a>
-                <a href="https://linkedin.com">
+                <a href="https://twitter.com/Sumon__Chandra">
                     <BsLinkedin />
                 </a>
+                
             </div>
             <div className="footer_copyright">
                 <small>&copy; Copyright Sumon Chandra Shil 2022.</small>
